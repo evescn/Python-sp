@@ -1,3 +1,0 @@
-root rootgm
-gm 12345
-hlr hlr123
