@@ -22,12 +22,12 @@ obj = collections.Counter('aaabbccsdfsdfdfsdfsdf')
 #
 # obj.subtract(['eric', '11', '11', 'root'])
 # print(obj)
-import collections
-
-dic = collections.OrderedDict()
-dic['k1'] = 'v1'
-dic['k2'] = 'v2'
-dic['k3'] = 'v3'
+# import collections
+#
+# dic = collections.OrderedDict()
+# dic['k1'] = 'v1'
+# dic['k2'] = 'v2'
+# dic['k3'] = 'v3'
 
 # dic2 = dict()
 # dic2['k1'] = 'v1'
@@ -82,14 +82,16 @@ dic['k3'] = 'v3'
 # print(obj.y)
 # print(obj.z)
 
-# d = collections.deque()
-#
-# d.append('1')
-# d.appendleft('10')
-# d.appendleft('a')
-# d.appendleft('1')
-# print(d)
+import collections
 
+d = collections.deque()
+
+d.append('1')
+d.appendleft('10')
+d.appendleft('a')
+d.appendleft('1')
+print(d)
+print(dir(d))
 # r = d.count('1')
 # print(r)
 
