@@ -6,6 +6,9 @@ s2.difference(['alex', 'eric'])
 	集合操作有2种形式，修改原集合，或者生成新的集合
 	s3 = s2.difference(['alex', 'eric'])
 
+# difference和difference_update的区别
+# difference把差异结果返回，但不修改原集合，
+# difference_update修改原集合
 s2.difference_update
 	修改原集合
 	
